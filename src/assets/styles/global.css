@@ -1,0 +1,37 @@
+:root {
+  font-size: 70%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+html,
+body,
+#root {
+  height: 100vh;
+}
+
+body {
+  background: #fff;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 400 1.6rem "Ubuntu Mono";
+  outline: 0;
+}
