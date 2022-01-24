@@ -1,7 +1,9 @@
-import React from "react";
+import Router from "./routes";
+
+import "./assets/styles/global.css";
 
 function App() {
-  return <p>Hello guys!</p>;
+  return <Router />;
 }
 
 export default App;
