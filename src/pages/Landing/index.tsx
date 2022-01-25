@@ -1,5 +1,14 @@
+import NavTop from "../NavTop";
+import { Container, Main } from "./styles";
+
 function Landing() {
-  return <div>Inicio</div>;
+  return (
+    <Container>
+      <NavTop />
+
+      <Main></Main>
+    </Container>
+  );
 }
 
 export default Landing;
