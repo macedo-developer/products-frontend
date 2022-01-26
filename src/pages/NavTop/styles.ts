@@ -20,6 +20,9 @@ export const Logo = styled.div``;
 export const ButtonOff = styled.button`
   width: 5rem;
   height: 5rem;
+  background: black;
 `;
 
-export const ImgPower = styled.img``;
+export const ImgPower = styled.img`
+
+`;

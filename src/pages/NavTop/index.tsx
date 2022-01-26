@@ -1,6 +1,6 @@
 import { ButtonOff, Container, ImgPower, Logo, Main } from "./styles";
 
-import powerImg from "../../assets/power.svg";
+import ImgPowerOff from "../../assets/power.svg";
 
 function NavTop() {
   return (
@@ -9,7 +9,7 @@ function NavTop() {
         <Logo>Logo Aqui</Logo>
 
         <ButtonOff>
-          <ImgPower src={powerImg} />
+          <ImgPower src={ImgPowerOff} />
         </ButtonOff>
       </Main>
     </Container>
