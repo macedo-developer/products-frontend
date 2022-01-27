@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100vw;
   height: 10rem;
-  background: red;
+  background: #cccccc;
 `;
 
 export const Main = styled.div`
@@ -20,9 +20,15 @@ export const Logo = styled.div``;
 export const ButtonOff = styled.button`
   width: 5rem;
   height: 5rem;
-  background: black;
+  border: 0 none;
+  border-radius: 0.3rem;
+  background: transparent;
+  transition: background 0.5s ease;
+  cursor: pointer;
+
+  &:hover {
+    background: red;
+  }
 `;
 
-export const ImgPower = styled.img`
-
-`;
+export const ImgPower = styled.img``;
