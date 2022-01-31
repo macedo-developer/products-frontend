@@ -23,11 +23,11 @@ export const ButtonOff = styled.button`
   border: 0 none;
   border-radius: 0.3rem;
   background: transparent;
-  transition: background 0.5s ease;
+  transition: background 0.6s ease-out;
   cursor: pointer;
 
   &:hover {
-    background: red;
+    background: #FA3834;
   }
 `;
 
