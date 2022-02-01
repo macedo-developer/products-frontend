@@ -5,6 +5,11 @@ export const Container = styled.div`
   height: 100%;
   background: red;
   cursor: pointer;
+  display:flex:
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  margin: auto;
   transition: width 0.6s ease-out;
 
   &:hover {
@@ -16,6 +21,14 @@ export const Container = styled.div`
     heigth: 100%;
     text-decoration: none;
   }
+`;
+
+export const Infos = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 `;
 
 export const Title = styled.p`

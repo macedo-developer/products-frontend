@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Container, Description, Title } from "./styles";
+import { Container, Description, Infos, Title } from "./styles";
 
 interface OptionProps {
   title: string;
@@ -11,8 +11,10 @@ const Option: React.FC<OptionProps> = (props) => {
   return (
     <Container>
       <Link to={props.page}>
-        <Title>{props.title}</Title>
-        <Description>{props.description}</Description>
+        <Infos>
+          <Title>{props.title}</Title>
+          <Description>{props.description}</Description>
+        </Infos>
       </Link>
     </Container>
   );
