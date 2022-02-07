@@ -5,16 +5,12 @@ export const Container = styled.div`
   height: 100%;
   background: red;
   cursor: pointer;
-  display:flex:
+  display: flex;
   flex-direction: column;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   transition: width 0.6s ease-out;
-
-  &:hover {
-    width: 110%;
-  }
 
   > a {
     width: 100%;
