@@ -9,16 +9,15 @@ function Landing() {
 
       <Main>
         <Option title="Produto" page="/produto" description="Ver/Adicionar" />
-        <Option title="Produto" page="/produto" description="Ver/Adicionar" />
-        <Option title="Produto" page="/produto" description="Ver/Adicionar" />
-        <Option title="Produto" page="/produto" description="Ver/Adicionar" />
-        <Option title="Produto" page="/produto" description="Ver/Adicionar" />
-        <Option title="Produto" page="/produto" description="Ver/Adicionar" />
-        <Option title="Produto" page="/produto" description="Ver/Adicionar" />
         <Option
           title="Venda"
           page="/venda"
           description="Adicionar nova venda"
+        />
+        <Option
+          title="Ver Vendas"
+          page="/listvendas"
+          description="Visualizar vendas"
         />
       </Main>
     </Container>
