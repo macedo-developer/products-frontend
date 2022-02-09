@@ -8,7 +8,7 @@ function Landing() {
       <NavTop />
 
       <Main>
-        <Option title="Produto" page="/produto" description="Ver/Adicionar" />
+        <Option title="Produto" page="/products" description="Ver/Adicionar" />
         <Option
           title="Venda"
           page="/venda"
